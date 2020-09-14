@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*
+Design By Away
+http://www.dfuns.idv.tw
+*/
+
+
+ul, li {
+		margin: 0;
+		padding: 0;
+		list-style: none;  
+	}
+
+	a img {
+		border: none;
+	}
+
+	#abgne-block {
+		margin: 0 auto;
+		width: 920px;	/* 框架圖片的寬 */
+		height: 670px;	/* 框架圖片的高 */
+		position: relative;
+		margin-bottom: 2%;
+		background-color: #FFFFFF;
+		
+	}
+
+	#abgne-block a.prev, #abgne-block a.next {
+		position: absolute;
+		top: 225px;
+		display: block;
+		width: 56px;	/* 左右鈕圖片的寬 */
+		height: 53px;	/* 左右鈕圖片的高 */
+		text-indent: -9999px;
+	}
+
+	#abgne-block .prev {
+		background: url('img/left.png') no-repeat;
+		left: -45px;
+	}
+
+	#abgne-block .next {
+		background: url('img/right.png') no-repeat;
+		right: -45px;
+	}
+
+	#abgne-block .slides {
+		overflow: hidden;
+		position: relative;
+	
+		width: 920px;	/* 框架中間區塊的寬 */
+		height: 670px;	/* 框架中間區塊的高 */
+		background-color: #FFFFFF;
+	
+	}
+
+	#abgne-block .slides ul {
+		position: absolute;
+		width: 9990px;
+		height: 100%;
+	}
+
+	#abgne-block .slides li {
+		width: 920px;	/* 框架中間區塊的寬 */
+		height: 100%;
+		float: left;
+	}
